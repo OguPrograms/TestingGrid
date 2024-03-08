@@ -1,0 +1,25 @@
+section{
+    display: grid;
+    grid-template-areas: 'ample1 ample1 gran gran'
+    'moltLlarg . gran gran'
+    'moltLlarg . . llarg'
+    'moltLlarg ample2 ample2 llarg'
+    'moltAmple moltAmple moltAmple moltAmple';
+    row-gap:20px;
+    column-gap:10px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#element1{grid-area:ample1;}
+#element2{grid-area:gran;}
+#element3{grid-area:moltLlarg;}
+#element7{
+    /*grid-area:llarg;*/
+   /* background: url(../T1.jpg);*/
+    background-size: cover;
+}
+#element8{grid-area:ample2;}
+#element9{grid-area: moltAmple}
